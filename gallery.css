@@ -1,0 +1,39 @@
+.galleried {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    max-width: 1400px;
+    justify-content: center;
+    object-fit: cover;
+    gap: 16px;
+    flex-direction: row;
+  }
+
+.gallery {
+    margin: 5px;
+    max-width: 200px;
+  }
+  
+  .gallery:hover {
+    border-radius: 10px;
+  }
+  
+  .gallery img {
+    width: 100%;
+    max-width: 350px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .desc {
+    padding: 1rem;
+    text-align: center;
+    font-family: "DM Sans", sans-serif;
+  }
+
+  .gallery::after {
+    content: "";
+    width: 350px;
+  }
