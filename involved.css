@@ -7,3 +7,29 @@
 strong {
   color: #ffa500;
 }
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#button1 {
+  background-color: #ffa500;
+  color: white;
+  padding: 0.8rem 2rem;
+  border-radius: 16px;
+  margin-top: 2rem;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+}
+
+#sect7 {
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+}
+
+#sect71 {
+  margin-bottom: 3rem;
+}
