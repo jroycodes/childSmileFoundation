@@ -1,0 +1,47 @@
+h1 {
+  text-align: center;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+}
+a:hover {
+  color: brown;
+}
+
+.country {
+  display: flex;
+  gap: 1.6rem;
+}
+
+.textarea {
+  padding-top: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.submit {
+  background-color: blueviolet;
+  color: white;
+  padding: 0.8rem 2rem;
+  border-radius: 16px;
+  margin-top: 2rem;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
