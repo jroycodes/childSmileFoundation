@@ -7,6 +7,7 @@ body {
   font-family: "DM Sans", sans-serif;
   background-color: #00043a;
   color: white;
+  margin: 2rem;
 }
 
 /* SECTION ONE */
@@ -112,7 +113,12 @@ body {
   .div1 {
     display: flex;
     flex-wrap: wrap;
-    gap: 1rem;
+    gap: 0.5rem;
+  }
+  #logo1 {
+    max-inline-size: 100%;
+    object-fit: contain;
+    background-color: #faeaff;
   }
 }
 
@@ -129,11 +135,13 @@ body {
   text-align: center;
 }
 
+
+
 .why {
   display: flex;
   justify-content: center;
   align-items: center;
-  text-align: left;
+  text-align: center;
   gap: 2rem;
   max-inline-size: 149ch;
 }
@@ -142,7 +150,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  text-align: left;
+  text-align: center;
   gap: 2rem;
   max-inline-size: 149ch;
 }
@@ -151,7 +159,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  text-align: left;
+  text-align: center;
   align-items: center;
 }
 
@@ -175,8 +183,6 @@ body {
       flex-wrap: wrap;
   }
 }
-
-
 
 #seperate {
   margin-bottom: 2rem;
