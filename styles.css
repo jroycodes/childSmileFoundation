@@ -18,6 +18,10 @@ body {
   gap: 3rem;
   background-color: #00043a;
 }
+.nav{
+  display: flex;
+  flex-wrap: wrap;
+}
 
 #a {
   font-family: "DM Sans", sans-serif;
@@ -104,10 +108,11 @@ body {
 }
 
 /* MOBILE */
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 576px) {
   .div1 {
     display: flex;
     flex-wrap: wrap;
+    gap: 1rem;
   }
 }
 
@@ -389,10 +394,9 @@ body {
 #socials1 {
   background-color: white;
 }
-
-.lownav {
+.lownav{
   display: flex;
-  flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
   gap: 4rem;
 }
