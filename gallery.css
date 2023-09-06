@@ -37,3 +37,7 @@
     content: "";
     width: 350px;
   }
+
+  hr:first-of-type{
+    margin-bottom: 2rem;
+  }
