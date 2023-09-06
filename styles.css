@@ -354,6 +354,22 @@ body {
   align-items: center;
   text-align: center;
 }
+.sect7 img{
+  max-inline-size: 100%;
+  object-fit: contain;
+}
+/* MOBILE */
+@media screen and (max-width: 992px) {
+  .sect7 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+}
+
 /* SECTION 8 */
 .one p {
   font-family: "DM Sans", sans-serif;
