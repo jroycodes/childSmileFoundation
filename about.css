@@ -6,21 +6,7 @@
   justify-content: center;
   align-items: center;
 }
-.values img{
-  max-inline-size: 100%;
-  object-fit: contain;
-}
-/* MOBILE */
-@media screen and (max-width: 992px) {
-  .values {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    flex-wrap: wrap;
-    gap: 2rem;
-  }
-}
+
 .objectives{
   text-align: left;
 }
@@ -31,8 +17,6 @@
   font-weight: 400;
   color: #FFB826;
 }
-
-
 
 
 .courses {
