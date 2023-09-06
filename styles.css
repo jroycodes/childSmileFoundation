@@ -78,7 +78,7 @@ body {
 .catch {
   text-shadow: 5px 5px 10px #000, 1px 1px 1px;
   text-align: center;
-   margin-top: 2.5rem;
+  margin-top: 2.5rem;
 }
 
 .logoz img {
@@ -87,39 +87,29 @@ body {
 }
 
 .div1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: left;
-    gap: 6rem;
-    max-inline-size: 149ch;
-  }
-
-  .note1{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: left;
-    align-items: center;
-    max-inline-size: 32ch;
-  }
-
-  /* MOBILE */
-  @media screen and (max-width: 376px) {
-    .div1{
-        display: flex;
-        flex-wrap: wrap ;
-    }
-  }
-
-/* BOXED */
-.box1 {
-  background-color: white;
   display: flex;
   justify-content: center;
-  text-align: center;
   align-items: center;
-  gap: 4rem;
+  text-align: left;
+  gap: 6rem;
+  max-inline-size: 149ch;
+}
+
+.note1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  align-items: center;
+  max-inline-size: 32ch;
+}
+
+/* MOBILE */
+@media screen and (max-width: 376px) {
+  .div1 {
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
 
 /* SECTION THREE */
@@ -131,16 +121,58 @@ body {
   justify-content: center;
   object-fit: cover;
   flex-direction: column;
-  margin-top: 2rem;
   margin-bottom: 2rem;
   text-align: center;
 }
 
-.seperate {
+.why {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
   gap: 2rem;
-  text-align: center;
+  max-inline-size: 149ch;
 }
+
+.doubled{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  gap: 2rem;
+  max-inline-size: 149ch;
+}
+
+.notes{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  align-items: center;
+}
+
+/* MOBILE */
+@media screen and (max-width: 576px) {
+  .why{
+      display: flex;
+      flex-wrap: wrap ;
+  }
+
+  .doubled{
+      display: flex;
+      flex-wrap: wrap ;
+  }
+}
+
+/* TABLET */
+@media screen and (max-width: 768px) {
+  .why{
+      display: flex;
+      flex-wrap: wrap;
+  }
+}
+
+
 
 #seperate {
   margin-bottom: 2rem;
