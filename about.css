@@ -1,3 +1,47 @@
+
+/* ABOUT US SEC1 */
+.about{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.divide{
+  display: flex;
+  justify-content: center;
+  text-align: left;
+  gap: 4rem;
+  margin-bottom: 2rem;
+}
+
+.about img{
+  max-inline-size: 100%;
+  object-fit: contain;
+}
+@media screen and (max-width: 576px) {
+  .divide{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+
+  h2{
+    text-align: center;
+  }
+}
+
+h2 {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  line-height: 2rem;
+}
+p {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 200;
+  line-height: 1.5rem;
+}
+
 .values{
   display: flex;
   gap: 2rem;
