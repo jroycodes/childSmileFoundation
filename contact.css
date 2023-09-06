@@ -3,8 +3,16 @@ h1 {
 }
 .container {
   display: flex;
+  gap: 1rem;
   justify-content: center;
   align-items: center;
+}
+
+.personal{
+ display: flex;
+ justify-content: center;
+ gap: 1rem;
+ flex-wrap: wrap;
 }
 
 a {
