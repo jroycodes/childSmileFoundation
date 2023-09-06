@@ -42,7 +42,6 @@ body {
   background-position: bottom center;
   background-size: cover;
   width: 100%;
-  height: 75vh;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -329,6 +328,23 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
+}
+
+.sect6 img{
+  max-inline-size: 100%;
+  object-fit: contain;
+}
+
+/* MOBILE */
+ @media screen and (max-width: 992px) {
+  .sect6 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
 }
 
 .sect7 {
